@@ -1,0 +1,15 @@
+{
+  "name": "helloworld",
+  "version": "0.0.1-a",
+  "description": "hello world",
+  "main": "./helloworld3.js",
+  "keywords": [
+    "hello",
+    "world"
+  ],
+  "author": "Kyle Simpson <getify@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "minimist": "^1.2.0"
+  }
+}

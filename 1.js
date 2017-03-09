@@ -1,4 +1,5 @@
-// write some node code finally!
+var args = require("minimist")(process.argv.slice(2), { string: "name"});
 
-// console.log("Hello World!");
-process.stdout.write("Hello World");
+var name = args.name;
+
+console.log("Hello " + name);

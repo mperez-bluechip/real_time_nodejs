@@ -16,3 +16,5 @@ This is a learning exercise from Lynda.com with Kyle Simpson on working with rea
 * Added 5.server.js file demonstrating how to require asynquence module to
   generate a text file
 * Added 6.server.js file demonstrating how to serve up static web pages
+* Added 7.server.js and 8.server.js demonstrating web socket io handling and 
+  serving html page with console logging to verify client connections

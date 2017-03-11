@@ -15,3 +15,4 @@ This is a learning exercise from Lynda.com with Kyle Simpson on working with rea
   port listening, and conditionals for GET and url to output simple text
 * Added 5.server.js file demonstrating how to require asynquence module to
   generate a text file
+* Added 6.server.js file demonstrating how to serve up static web pages

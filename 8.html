@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>8.html</title>
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <h2>8.html</h2>
+
+<p id="hello"></p>
+
+
+  <script>
+    var socket = io.connect("/");
+    socket.on("connect", function(){
+      console.log("connected");
+    });
+
+    socket.on("disconnect", function(){
+      console.log("disconnected");
+    });
+    socket.on("hello", function(num){
+      document.getElementById("hello").innerHTML = "Hello World: " + num;
+    });
+  </script>
+
+</body>
+</html>

@@ -4,6 +4,8 @@ function readFile(filename) {
     var stream = fs.createReadStream(filename);
     var contents = "";
 
+    stream.pipe( fs.createWriteStream(filename+".backup") );
+
     stream.on("data", function(chunk){
       contents += chunk;
     });

@@ -11,3 +11,5 @@ This is a learning exercise from Lynda.com with Kyle Simpson on working with rea
   efficiently, generate the contents of a file, such as using the asyquence module, for callback and error handling using built in function
 * Added socket.io and node-static devDependencies
 * Modified helloworld3.js file module to generate data streams
+* Added 4.server.js file to create a web server with http request and response,
+  port listening, and conditionals for GET and url to output simple text

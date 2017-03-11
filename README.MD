@@ -13,3 +13,5 @@ This is a learning exercise from Lynda.com with Kyle Simpson on working with rea
 * Modified helloworld3.js file module to generate data streams
 * Added 4.server.js file to create a web server with http request and response,
   port listening, and conditionals for GET and url to output simple text
+* Added 5.server.js file demonstrating how to require asynquence module to
+  generate a text file

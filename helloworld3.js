@@ -1,9 +1,16 @@
 function readFile(filename) {
-  var sq = ASQ();
+  return ASQ(function(done){
 
-  fs.readFile(filename, sq.errfcb());
+    var stream = fs.createReadStream(filename);
+    var contents = "";
 
-  return sq;
+    stream.on("data", function(chunk){
+      contents += chunk;
+    });
+    stream.on("end", function(){
+      done(contents);
+    });
+  });
 }
 
 function delayMsg(done, contents){

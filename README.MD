@@ -10,3 +10,4 @@ This is a learning exercise from Lynda.com with Kyle Simpson on working with rea
 * Modified the helloworld2.js with abstraction code in order to, more
   efficiently, generate the contents of a file, such as using the asyquence module, for callback and error handling using built in function
 * Added socket.io and node-static devDependencies
+* Modified helloworld3.js file module to generate data streams

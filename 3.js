@@ -1,5 +1,5 @@
 function printHelp() {
-	console.log("2.js usage:");
+	console.log("3.js usage:");
 	console.log("");
 	console.log("--help              print this help");
 	console.log("--file={FILENAME}   which file to load");
@@ -15,7 +15,7 @@ if ("help" in args || !args.file) {
 	process.exit(1);
 }
 
-var hello = require("./helloworld2.js");
+var hello = require("./helloworld3.js");
 
 hello.say(args.file)
 .val(function(msg){

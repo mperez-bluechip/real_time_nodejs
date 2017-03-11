@@ -10,6 +10,8 @@
   "author": "Kyle Simpson <getify@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "asynquence": "^0.10.0",
+    "asynquence-contrib": "^0.28.0",
     "minimist": "^1.2.0"
   }
 }

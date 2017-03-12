@@ -20,4 +20,6 @@ This is a learning exercise from Lynda.com with Kyle Simpson on working with rea
   serving html page with console logging to verify client connections
 * Added 9.server.js and 9.html demonstrating web socket io to other
   users with socket emit and broadcasting to achieve realtime messaging
-  across multiple open instances of the same page anywhere 
+  across multiple open instances of the same page anywhere
+* Added 10.server.js and 10.html demonstrating how web sockets can track
+  mouse movements 
